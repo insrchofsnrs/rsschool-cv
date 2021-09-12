@@ -1,1 +1,0 @@
-https://insrchofsnrs.github.io/rsschool-cv/cv
