@@ -1,72 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+@media only screen and (max-width: 768px) {
+  .container > .block {
+    display: box;
+  }
+
+  body {
+    font-size: 4rem;
+  }
+}
 
 body {
-    background: #e0e0e0;
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 16px;
-    color: rgb(42, 42, 42);
+  background: #e0e0e0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  color: rgb(42, 42, 42);
 }
 
 .container {
-    max-width: 900px;
-    background: #e0e0e0;
-    margin: auto;
+  max-width: 900px;
+  background: #e0e0e0;
+  margin: auto;
+  padding: 5px;
+  display: flex;
 }
 
 .avatar {
-    width: 300px;
-    border-radius: 50px;
-    align-content: center;
+  width: 200px;
+  border-radius: 25px;
 }
 
 header {
-    padding: 30px;
-    margin: 15px;
-
+  padding: 30px;
+  margin: 15px;
 }
 
-header > img:last-child {
-    margin-left: auto;
-    margin-right: 50px;
+.container > div.block:last-child {
+  background: purple;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
-header > .block:first-child {
-    width: 600px;
+.container > div.block:first-child {
+  background: red;
+  padding-left: 30px;
+  width: 100%;
 }
 
 .block {
-    padding: 10px;
-    background: blue;
-    margin: 10px;
-    border-radius: 50px;
-    width: 400px;
+  padding: 10px;
+  margin: 10px;
 }
 
 .neomorph-container {
-    border-radius: 50px;
-    background: #e0e0e0;
-    box-shadow:  20px 20px 60px #bebebe, 
-                -20px -20px 60px #ffffff;
-}
-
-header {
-    padding: 5px;
-    display: flex;
+  border-radius: 50px;
+  background: #e0e0e0;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
 a {
-    color: rgb(42, 42, 42);
-    text-decoration: none;
+  color: rgb(42, 42, 42);
+  text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 a:active {
-    color: black;
+  color: black;
 }
 
 a:visited {
-    color: rgb(24, 134, 185);
+  color: rgb(24, 134, 185);
+}
+
+h2 {
+  text-decoration: underline;
+}
+
+li {
+  text-decoration-line: ;
 }
