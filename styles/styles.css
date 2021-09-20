@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+    background: #e0e0e0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
+    color: rgb(42, 42, 42);
+}
+
+.container {
+    max-width: 900px;
+    background: #e0e0e0;
+    margin: auto;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 50px;
+    align-content: center;
+}
+
+header {
+    padding: 30px;
+    margin: 15px;
+
+}
+
+header > img:last-child {
+    margin-left: auto;
+    margin-right: 50px;
+}
+
+header > .block:first-child {
+    width: 600px;
+}
+
+.block {
+    padding: 10px;
+    background: blue;
+    margin: 10px;
+    border-radius: 50px;
+    width: 400px;
+}
+
+.neomorph-container {
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow:  20px 20px 60px #bebebe, 
+                -20px -20px 60px #ffffff;
+}
+
+header {
+    padding: 5px;
+    display: flex;
+}
+
+a {
+    color: rgb(42, 42, 42);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: rgb(24, 134, 185);
+}
