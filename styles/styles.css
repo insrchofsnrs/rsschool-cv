@@ -21,8 +21,27 @@ body {
   max-width: 900px;
   background: #e0e0e0;
   margin: auto;
+  margin-bottom: 30px;
   padding: 5px;
   display: flex;
+}
+
+.container-main {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.container:first-child {
+  margin-top: 30px;
+}
+
+.container-footer {
+  max-width: 900px;
+  margin: auto;
+  padding: 10px;
 }
 
 .avatar {
@@ -35,21 +54,35 @@ header {
   margin: 15px;
 }
 
+main {
+  padding: 30px;
+  margin: 15px;
+  padding-bottom: 40px;
+}
+
+p {
+  margin-right: 60px;
+}
+
 .container > div.block:last-child {
-  background: purple;
   margin-left: auto;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 
 .container > div.block:first-child {
-  background: red;
   padding-left: 30px;
   width: 100%;
 }
 
 .block {
   padding: 10px;
+  margin: 10px;
+}
+
+.block-vertical {
+  padding-left: 30px;
+  width: 100%;
   margin: 10px;
 }
 
@@ -81,5 +114,5 @@ h2 {
 }
 
 li {
-  text-decoration-line: ;
+  text-decoration-line: unset;
 }
